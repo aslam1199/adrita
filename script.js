@@ -6,8 +6,8 @@ const rightTyping = document.getElementById("right-typing");
 
 // Texts for the left side
 const leftTexts = [
-  "Sorry Adrita 😔", "Bou Jaan ❤️", "Sorry Jaan 💕", "Sere Jabo Nah Jaan 🥺",
-  "Please Forgive Me 🌹", "I Love You Jaan 💖", "Ekbar Maaf Kore Dao 😢",
+  "Sorry Adrita 😔", "Bou Jaan ❤️", "Sorry Jaan 💕", "tmk Sere Jabo Nah Jaan 🥺",
+  "Please Forgive Me 🌹", "I Love You Jaan 💖", "Tumi nah amar lokkhi pakhi","jaan goo","bou goo ar korbo nah", "Love You jaan", "sona pakhi goo","Moyna pakhi goo",
   "Abar Hobe Nah ❤️", "Adrita, Rag Koro Nah 💕", "Jaan Amar Sob ❤️"
 ];
 const totalLeftTexts = 100;
