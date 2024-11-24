@@ -43,7 +43,7 @@ function startTyping() {
       leftTyping.appendChild(text);
       leftTyping.scrollTop = leftTyping.scrollHeight;
       leftIndex++;
-      setTimeout(typeLeft, 300);
+      setTimeout(typeLeft, 3000);
     }
   }
 
@@ -56,7 +56,7 @@ function startTyping() {
       rightTyping.appendChild(text);
       rightTyping.scrollTop = rightTyping.scrollHeight;
       rightIndex++;
-      setTimeout(typeRight, 500);
+      setTimeout(typeRight, 5000);
     }
   }
 
