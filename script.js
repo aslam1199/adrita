@@ -6,8 +6,8 @@ const rightTyping = document.getElementById("right-typing");
 
 // Texts for the left side
 const leftTexts = [
-  "Sorry Adrita 😔", "Bou Jaan ❤️", "Sorry Jaan 💕", "tmk Sere Jabo Nah Jaan 🥺",
-  "Please Forgive Me 🌹", "I Love You Jaan 💖", "Tumi nah amar lokkhi pakhi","jaan goo","bou goo ar korbo nah", "Love You jaan", "sona pakhi goo","Moyna pakhi goo",
+  "Sorry Adrita 😔", "Bou Jaan ❤️", "Sorry Jaan 💕", "Sere Jabo Nah Jaan 🥺",
+  "Please Forgive Me 🌹", "I Love You Jaan 💖", "Ekbar Maaf Kore Dao 😢",
   "Abar Hobe Nah ❤️", "Adrita, Rag Koro Nah 💕", "Jaan Amar Sob ❤️"
 ];
 const totalLeftTexts = 100;
@@ -43,7 +43,7 @@ function startTyping() {
       leftTyping.appendChild(text);
       leftTyping.scrollTop = leftTyping.scrollHeight;
       leftIndex++;
-      setTimeout(typeLeft, 100);
+      setTimeout(typeLeft, 800); // Slow down typing by increasing timeout (800ms)
     }
   }
 
@@ -56,7 +56,7 @@ function startTyping() {
       rightTyping.appendChild(text);
       rightTyping.scrollTop = rightTyping.scrollHeight;
       rightIndex++;
-      setTimeout(typeRight, 100);
+      setTimeout(typeRight, 1200); // Slow down typing by increasing timeout (1200ms)
     }
   }
 
